@@ -43,8 +43,8 @@ python reliability.py --model_name ABMIL --att_path ... --anno_path ... ```
 
 <p align="center">
   <img src="https://github.com/tueimage/MIL-Reliability/raw/main/figures/bar_plot_MI.png" width="400" style="display: inline-block; margin-right: 80px; vertical-align: middle;" />
-  <img src="https://github.com/tueimage/MIL-Reliability/raw/main/figures/bar_plot_Spearmans.png" width="400" style="display: inline-block; vertical-align: middle;" />
   <img src="https://github.com/tueimage/MIL-Reliability/raw/main/figures/bar_plot_AUPRC.png" width="400" style="display: inline-block; vertical-align: middle;" />
+  <img src="https://github.com/tueimage/MIL-Reliability/raw/main/figures/bar_plot_Spearmans.png" width="400" style="display: inline-block; vertical-align: middle;" />
 </p>
 
 
