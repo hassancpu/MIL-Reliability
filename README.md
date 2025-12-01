@@ -2,7 +2,7 @@
 __Quantitative Evaluation of Multiple Instance Learning
 Reliability For WSIs Classification__
 
-![alt text](https://github.com/tueimage/MIL-Reliability/raw/main/figures/framework.pdf)
+![alt text](https://github.com/tueimage/MIL-Reliability/raw/main/figures/1.tif)
 _<sup>The overall framework for evaluating the reliability of MIL models.</sup>_
 
 
