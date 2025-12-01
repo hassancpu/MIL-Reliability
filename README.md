@@ -28,7 +28,7 @@ python train.py --data_root_dir feat-directory ... --lr 1e-4 --reg 1e-5 --seed 2
 After training, the model can be evaluated to compute and store patch scores using the following command:
 
 ```
-python eval.py --drop_out --k 5 --k_start 0 --k_end -1  --models_exp_code ABMIL_s2021 --save_exp_code ABMIL_eval --task task_1_tumor_vs_normal --model_type abmil --results_dir results --data_root_dir ... ```
+python eval.py --drop_out --k 5 --k_start 0 --k_end -1  --models_exp_code ABMIL_s2021 --save_exp_code ABMIL_eval --task task_1_tumor_vs_normal --model_type abmil --results_dir results --data_root_dir ... 
 ```
 
 **Reliability**
@@ -36,7 +36,7 @@ python eval.py --drop_out --k 5 --k_start 0 --k_end -1  --models_exp_code ABMIL_
 Finally, reliability scores for the model can be calculated across all folds.
 
 ```
-python reliability.py --model_name ABMIL --att_path ... --anno_path ... ```
+python reliability.py --model_name ABMIL --att_path ... --anno_path ... 
 ```
 
 **Results**
