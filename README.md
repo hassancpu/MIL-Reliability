@@ -98,6 +98,7 @@ Below are reliability comparisons across MIL models based on AUPRC, Spearman cor
 
 If you find this repository useful, please consider citing:
 
+```bibtex
 @article{keshvarikhojasteh2025beyond,
   title={Beyond accuracy: Quantifying the reliability of multiple instance learning for whole slide image classification},
   author={Keshvarikhojasteh, Hassan and Aubreville, Marc and Bertram, Christof A and Pluim, Josien PW and Veta, Mitko},
@@ -108,7 +109,7 @@ If you find this repository useful, please consider citing:
   year={2025},
   publisher={Public Library of Science San Francisco, CA USA}
 }
-
+```
 
 <a name="license"></a> 
 ## ⚖ License 
