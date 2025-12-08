@@ -111,4 +111,6 @@ If you find this repository useful, please consider citing:
 
 
 <a name="license"></a> 
-## ⚖ License This repository is licensed under MIT License.
+## ⚖ License 
+
+This repository is licensed under MIT License.
