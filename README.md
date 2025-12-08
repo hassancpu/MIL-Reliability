@@ -5,7 +5,7 @@
 This repository contains the official implementation, experiments, and evaluation code for our work on **MIL reliability assessment**.
 
 <p align="center">
-  <img src="https://github.com/tueimage/MIL-Reliability/raw/main/figures/framework.png" width="700"/>
+  <img src="https://github.com/tueimage/MIL-Reliability/raw/main/figures/framework.png" width="1000"/>
 </p>
 <p align="center"><em>Figure 1: Overall framework for evaluating the reliability of MIL models.</em></p>
 
