@@ -1,6 +1,6 @@
 # 🚀 MIL-Reliability
 
-**Quantitative Evaluation of Multiple Instance Learning Reliability for WSI Classification**
+**Beyond accuracy: Quantifying the reliability of multiple instance learning for whole slide image classification**
 
 This repository contains the official implementation, experiments, and evaluation code for our work on **MIL reliability assessment**.
 
