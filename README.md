@@ -44,7 +44,7 @@ We follow the preprocessing pipeline of **[CLAM](https://github.com/mahmoodlab/C
 
 Train MIL models using:
 
-```
+```bash
 python train.py \
   --data_root_dir feat-directory ... \
   --lr 1e-4 --reg 1e-5 --seed 2021 \
