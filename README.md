@@ -25,21 +25,17 @@ This repository contains the official implementation, experiments, and evaluatio
 <a name="overview"></a>
 ## 🧠 Overview
 
-This project provides a unified pipeline to **quantitatively evaluate the reliability of multiple instance learning (MIL) models**.  It is designed for WSI classification tasks and supports several MIL architectures (e.g., **ABMIL**, **CLAM**, etc.).
-
-We evaluate reliability using multiple criteria, including:
-- **Patch-level prediction stability**  
-- **Agreement metrics across folds**  
-- **Consistency between slide-level and patch-level signals**
+This project provides a unified pipeline to **quantitatively evaluate the reliability of multiple instance learning (MIL) models**.  It is designed for WSI classification tasks and supports several MIL architectures (e.g., **ABMIL**, **CLAM**, etc.). Reliability in this study is defined as the consistent focus of MIL models on diagnostically relevant ROIs within WSIs, a prerequisite for trustworthy and clinically useful predictions. To quantify this alignment, we selected three complementary metrics that together capture different aspects of spatial concordance between predicted patch scores and ground truth annotations:
+- **Mutual Information (MI)**  
+- **Spearman’s Correlation (Spearman’s)**  
+- **Area Under the Precision-Recall Curve (AUPRC)**
 
 ---
 
 <a name="data-preparation"></a>
 ## 📂 Data Preparation
 
-We follow the preprocessing pipeline of **[CLAM](https://github.com/mahmoodlab/CLAM)**.  
-Pre-extracted patch features should be organized similarly to CLAM’s directory structure.  
-Please refer to the original CLAM documentation or the accompanying paper for detailed guidance.
+We follow the preprocessing pipeline of **[CLAM](https://github.com/mahmoodlab/CLAM)**. Pre-extracted patch features should be organized similarly to CLAM’s directory structure. Please refer to the original CLAM documentation or the accompanying paper for detailed guidance.
 
 ---
 
@@ -48,7 +44,7 @@ Please refer to the original CLAM documentation or the accompanying paper for de
 
 Train MIL models using:
 
-```bash
+```
 python train.py \
   --data_root_dir feat-directory ... \
   --lr 1e-4 --reg 1e-5 --seed 2021 \
