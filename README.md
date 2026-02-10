@@ -37,6 +37,13 @@ This project provides a unified pipeline to **quantitatively evaluate the reliab
 
 We follow the preprocessing pipeline of **[CLAM](https://github.com/mahmoodlab/CLAM)**. Pre-extracted patch features should be organized similarly to CLAM’s directory structure. Please refer to the original CLAM documentation or the accompanying paper for detailed guidance.
 
+Download the extracted features from Zenodo: 
+
+- **BRCA:** [Download](https://zenodo.org/records/10563985/files/BRCA.zip?download=1)
+- **Camelyon16:** [Download](https://zenodo.org/records/18596568/files/Camelyon16.zip?download=1)
+- **CATCH:** [Download](https://zenodo.org/records/18596568/files/CATCH.zip?download=1)
+  
+Organize your dataset directory accordingly for training.
 ---
 
 <a name="training"></a>
